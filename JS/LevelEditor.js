@@ -99,6 +99,7 @@ var saveButton,newColumn,newRow,removeCol,removeRow,clearInside,clearEnemies;
           data:level.data,
           spawnPoints:level.spawnPoints
       })
+    alert("Your Level: "+level.data )
   }
  function showButtons(){
      var xpos=500
